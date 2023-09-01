@@ -1,6 +1,6 @@
 # airflow_sample
 
-Sample project demonstrating [Apache Airflow](https://airflow.apache.org/) virtual environment configuration and setup (MacOS). Experimentation with Airflow DAGs and ETL data pipelines.
+Sample project demonstrating [Apache Airflow](https://airflow.apache.org/) virtual environment configuration and setup (MacOS). Experimentation with Airflow DAGs and ETL data pipelines within a virtualized environment.
 
 ## Quickstart
 
@@ -35,6 +35,14 @@ source apache_airflow/bin/activate
 ```
 
 ## Initial Project Setup
+
+### Dependencies
+
+1. [python](https://www.python.org/)
+2. [pip](https://pypi.org/project/pip/)
+3. [virtualenv](https://virtualenv.pypa.io/en/latest/)
+
+### Setup Steps
 
 1. Setup apache airflow virtual environment
 ```
