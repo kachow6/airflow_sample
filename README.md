@@ -34,6 +34,8 @@ bash scheduler.sh
 source apache_airflow/bin/activate
 ```
 
+![Airflow start view](./assets/airflow_start.png)
+
 ## Initial Project Setup
 
 ### Dependencies
