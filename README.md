@@ -60,7 +60,7 @@ pip install apache-airflow
 ```
 airflow db init
 ```
-`  `
+
 6. Start airflow web server
 ```
 airflow webserver -p 8081
