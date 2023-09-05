@@ -30,12 +30,15 @@ Alternatively, run:
 bash scheduler.sh
 ```
 
-3. Start airflow enabled virtual environment:
+3. Start airflow enabled virtual environment in a seperate terminal:
 ```
 source apache_airflow/bin/activate
 ```
 
-![Airflow start view](./assets/airflow_start.png)
+4. Display a list of available example DAGs and their relative project location:
+```
+airflow tasks list tutorial
+```
 
 ## Initial Project Setup
 
@@ -82,6 +85,8 @@ airflow webserver -p 8081
 http://localhost:8081/
 ```
 
+![Airflow start view](./assets/airflow_start.png)
+
 ## User Configuration
 
 Create a new admin user
@@ -94,4 +99,6 @@ airflow users create -e kevin@example.com -f Kevin -l Chow -p 123 -r Admin -u ke
 
 ## Sources
 
-https://blog.knoldus.com/apache-airflow-installation-guide-and-basic-commands/
+- https://airflow.apache.org/docs/apache-airflow/stable/index.html
+- https://blog.knoldus.com/apache-airflow-installation-guide-and-basic-commands/
+- https://airflow.apache.org/docs/apache-airflow/stable/tutorial/fundamentals.html#adding-dag-and-tasks-documentation
