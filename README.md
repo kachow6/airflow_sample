@@ -40,6 +40,11 @@ Refer to [Initial Project Setup](#initial-project-setup) and [User Configuration
     airflow dags list
     ```
 
+5. You can add a custom DAG to test in the virtual environment by uploading a DAG `.py` file to a `/dags` folder at the path specified by your `AIRFLOW_HOME` environment variable.
+    ```
+    echo <dag_code> > $AIRFLOW_HOME/dags/test.py
+    ```
+
 ## Initial Project Setup (MacOS)
 
 ### Dependencies
